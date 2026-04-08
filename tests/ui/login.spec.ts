@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('alpha7x login test', async ({ page }) => {
+test('qa login test', async ({ page }) => {
 
   await page.goto('https://www.saucedemo.com');
 
