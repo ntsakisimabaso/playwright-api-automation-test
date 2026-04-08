@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('alpha7x api test get posts', async ({ request }) => {
+test('api test get posts', async ({ request }) => {
 
   const response = await request.get('https://jsonplaceholder.typicode.com/posts');
 
